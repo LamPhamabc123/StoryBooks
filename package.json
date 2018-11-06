@@ -6,11 +6,12 @@
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Brad Traversy",
+  "author": "Lam Pham",
   "license": "MIT",
   "dependencies": {
     "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
     "express-session": "^1.15.5",
     "mongoose": "^4.11.12",
     "passport": "^0.4.0",
