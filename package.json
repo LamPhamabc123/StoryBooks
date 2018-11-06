@@ -1,23 +1,17 @@
 {
   "name": "storybooks",
   "version": "1.0.0",
-  "description": "StoryBooks",
+  "description": "App to share public or write private stories",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LamPhamabc123/StoryBooks.git"
-  },
-  "author": "LamPham",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LamPhamabc123/StoryBooks/issues"
-  },
-  "homepage": "https://github.com/LamPhamabc123/StoryBooks#readme",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
     "mongoose": "^4.11.12",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
