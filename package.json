@@ -1,0 +1,25 @@
+{
+  "name": "storybooks",
+  "version": "1.0.0",
+  "description": "StoryBooks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamPhamabc123/StoryBooks.git"
+  },
+  "author": "LamPham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LamPhamabc123/StoryBooks/issues"
+  },
+  "homepage": "https://github.com/LamPhamabc123/StoryBooks#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^4.11.12",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
