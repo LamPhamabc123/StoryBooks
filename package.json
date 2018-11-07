@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamPhamabc123/StoryBooks.git"
+  },
   "author": "Lam Pham",
   "license": "MIT",
   "dependencies": {
