@@ -13,6 +13,7 @@
   "author": "Lam Pham",
   "license": "MIT",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
