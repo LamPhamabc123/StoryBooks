@@ -4,10 +4,17 @@ const mongoose = require('mongoose');
 const Story = mongoose.model('stories');
 const User = mongoose.model('users');
 const {ensureAuthenticated, ensureGuest} = require('../helpers/auth');
+const {stripTags} = require('../helpers/hbs');
 
 // Stories Index
 router.get('/', (req, res) => {
-  res.render('stories/index');
+  Story.find({status:'public'})
+    .populate('user')
+    .then(stories => {
+      res.render('stories/index', {
+        stories: stories
+      });
+    });
 });
 
 // Add Story Form
