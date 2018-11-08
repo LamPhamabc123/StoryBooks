@@ -6,13 +6,20 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamPhamabc123/StoryBooks.git"
+  },
   "author": "Lam Pham",
   "license": "MIT",
   "dependencies": {
+    "body-parse": "^0.1.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.5",
+    "method-override": "^3.0.0",
+    "moment": "^2.22.2",
     "mongoose": "^4.11.12",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
